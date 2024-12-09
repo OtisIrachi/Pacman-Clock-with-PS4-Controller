@@ -14,8 +14,8 @@ class Clockface: public IClockface {
     const int MAP_SIZE = 12;
     Adafruit_GFX* _display;
     CWDateTime* _dateTime;
-    const char* _weekDayWords = "SUN\MON\TUE\WED\THR\FRI\SAT\0";
-    //const char* _weekDayWords = "Sun\Mon\Tue\Wed\Thr\Fri\Sat\0";
+    //const char* _weekDayWords = "SUN\MON\TUE\WED\THR\FRI\SAT\0";
+    const char* _weekDayWords = "Sun\Mon\Tue\Wed\Thr\Fri\Sat\0";
     const char* _monthWords = "JAN\0FEB\0MAR\0APR\0MAY\0JUN\0JUL\0AUG\0SEP\0OCT\0NOV\0DEC\0";
     char weekDayTemp[4]= "\0";
     char monthTemp[4]= "\0";

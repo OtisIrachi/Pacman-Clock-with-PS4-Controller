@@ -112,8 +112,7 @@ void PacmanO::update()
         {
         _state = MOVING;
         //current_color = SCAREDBLUE; 
-        //current_color = ORANGCOLOR; 
-        current_color = GREENCOLOR;      
+        current_color = ORANGCOLOR;       
         }   
         
      // As long as Pacman is Scared ir runs this !!!
@@ -141,8 +140,7 @@ void PacmanO::update()
      PacmanOInvincFlag = 0;
      PacmanOStoppedFlag = 0; 
      PacmanOJailedFlag = 1;  
-     //current_color = ORANGCOLOR;
-     current_color = GREENCOLOR;
+     current_color = ORANGCOLOR;
      changePacmanOColor(current_color); 
      Locator::getDisplay()->drawRGBBitmap(14, 39, _PACMANO[int(_pacmano_anim)], SPRITE_SIZE, SPRITE_SIZE);
      }
@@ -156,8 +154,7 @@ void PacmanO::update()
      PacmanOInvincFlag = 0;
      PacmanOStoppedFlag = 0;
      PacmanOJailedFlag = 0;         
-     //current_color = ORANGCOLOR; 
-     current_color = GREENCOLOR;
+     current_color = ORANGCOLOR; 
      changePacmanOColor(current_color);
      Locator::getDisplay()->drawRGBBitmap(_x, _y, _PACMANO[int(_pacmano_anim)], SPRITE_SIZE, SPRITE_SIZE);
      }

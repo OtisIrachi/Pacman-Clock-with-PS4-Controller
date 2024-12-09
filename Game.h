@@ -18,13 +18,11 @@ const int DISPLAY_HEIGHT = 64;
 #define CYANCOLOR       0x05BD           // was 0x05BD
 #define GREENCOLOR      0x07E0  
 #define DARKBLUE        0x000A
-//#define SUPERFOODCOLOR  0xFD80
-#define SUPERFOODCOLOR  0xFD00
+#define SUPERFOODCOLOR  0xFD80
 #define GHOSTBLUE       0x0011
 #define PINKCOLOR       0xF2F5           // was 0xF175  was 0xA970   // was 0xFD1C
-#define ORANGCOLOR      0xFD00
-//#define ORANGCOLOR      0x07E0           // was 0xFD00 - Orange,  now Green - 0x07E0
-#define CLOCKCOLOR      0x8D80
+#define ORANGCOLOR      0x07E0           // was 0xFD00 - Orange,  now Green - 0x07E0
+#define CLOCKCOLOR      0x8D80           
 #define DATECOLOR       0xAD55
 #define SCAREDBLUE      0x0018
 #define TURQCOLOR       0x03D0

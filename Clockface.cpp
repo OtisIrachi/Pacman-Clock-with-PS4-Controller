@@ -290,7 +290,7 @@ void Clockface::displayFood()
                  }                 
               if (_MAP[j][i] == MapBlock::SUPER_FOOD)  
                  {
-                 Locator::getDisplay()->fillRect((i * 5) + 3, (j * 5) + 3, 3, 3, ORANGCOLOR);
+                 Locator::getDisplay()->fillRect((i * 5) + 3, (j * 5) + 3, 3, 3, SUPERFOODCOLOR);
                  }                    
               }
            }  
