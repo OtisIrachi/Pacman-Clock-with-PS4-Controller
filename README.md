@@ -12,7 +12,9 @@ https://raw.githubusercontent.com/ricardoquesada/esp32-arduino-lib-builder/maste
 
 Search and Install the new "esp32_bluepad32" Board Manager.
 When complete, it will show up under Board Manager dropdown as "ESP32 Arduino + Bluepad32".
+
 Compile the Pacman-Clock-with-PS4-Controller.ino program as normal.
+
 *** The Pacman program will not compile without this added Board Manager! ***
 
 Video: https://www.youtube.com/watch?v=4IPQbADvfUQ
