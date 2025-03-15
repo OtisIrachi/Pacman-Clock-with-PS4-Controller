@@ -19,6 +19,7 @@ Compile the Pacman-Clock-with-PS4-Controller.ino program as normal.
 
 Video: https://www.youtube.com/watch?v=4IPQbADvfUQ
 
+Remember to edit and add your own SSID to connect to your network.
 Pacman Clock displays time and date.
 Game play will occur upon bootup. Manual game play will be enabled when a 
 PS4 Bluetooth controller is connected and the trigger button pushed.
